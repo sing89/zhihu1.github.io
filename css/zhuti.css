@@ -1,10 +1,21 @@
 .kai_1{
 	width: 1520px;
 	height:152px;
-	border-width: 10px;
-	border-color: #f6e2cf;
 	border-style: outset;
-	background-image: url(../image/c15e0dca25f7dc7caee5d21a746da69d.jpg); 
+	border-width: 5px;
+	border-top-left-radius: 50px 30px;
+	border-top-right-radius: 50px 30px;
+	border-bottom-left-radius: 50px 30px;
+	border-bottom-right-radius: 50px 30px;
+}
+.kai{
+	width: 1520px;
+	height:152px;
+	position: absolute;
+	background-image: url(../image/c15e0dca25f7dc7caee5d21a746da69d.jpg);
+	opacity: 0.8;
+	border-width: 15px;
+	border-color: #f6e2cf;
 	border-top-left-radius: 50px 30px;
 	border-top-right-radius: 50px 30px;
 	border-bottom-left-radius: 50px 30px;
@@ -19,7 +30,7 @@
 	-webkit-border-radius:80px;
 	border: inset;
 	border-width: 9px;
-	background-image: url(../image/kkk.gif);
+	background-image:url(../image/kkk.gif);
 	margin: 36px 719px;
 	position: absolute;
 }
@@ -145,33 +156,55 @@
 }
 
 .kai_2{
-	width: 1520px;
+	width: 1300px;
 	height: 900px;
+	float: right;
+	position: absolute;
+	margin: 0px 200px;
 	background-color: red;
+
 }
 .kai_2_1{
 	width: 120px;
-	height:800px;
-	background-color: green;
+	height:400px;
+	position: fixed;
+	top:190px;
+	left:50px;
+	border-top-left-radius: 50px 50px;
+	border-top-right-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	border-bottom-right-radius: 50px 50px;
+	background-image: url(../image/bzx.jpg);
+	border-style: inset;
+	border-width: 4px;
 	margin: 0px 0px;
-	position:absolute;
 }
-.kai_2_2{
-	width:600px;
-	height: 800px;
-	background-color:pink;
-	position:absolute;
-	margin:0px 200px;
-}
-.kai_2_3{
-	width:500px;
-	height: 800px;
-	background-color:pink;
-	position:absolute;
-	margin:0px 900px;
-}
-.zhong{
-	height: 200px;
+.kai_3{
 	width: 1520px;
-	background-color:#f000;
+	height: 422px;
+	border-color: #f6e2cf;
+	border-width: 2px;
+	background-image: url(../image/90.gif);
+	margin: 0px 12px;
+}
+.kai_3_1{
+	width: 700px;
+	height: 350px;
+	background-color: #f6eded;
+	margin: 30px 400px;
+	border-top-left-radius: 30px 50px;
+	border-top-right-radius: 30px 50px;
+	border-bottom-left-radius: 30px 50px;
+	border-bottom-right-radius: 30px 50px;
+	border-style: solid;
+	border-color: #383434;
+	border-width: 3px;
+	position: absolute;
+	opacity: 0.7;
+
+}
+.kai_3_2{
+	line-height: 7px;
+	position: center;
+	margin: 20px 80px;
 }
